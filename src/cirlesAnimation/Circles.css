@@ -1,0 +1,28 @@
+.circle-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.circle-container {
+    visibility: hidden;
+}
+
+.circle{
+    width: 75px;
+    height: 75px;
+    background-color: blue;
+    border-radius: 100%;
+    opacity: 1;
+}
+
+.red{
+    background-color: red;
+}
+
+.yellow{
+    background-color: yellow;
+}
